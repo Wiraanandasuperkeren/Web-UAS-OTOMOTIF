@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light pl-5" style="background-color: rgb(32, 32, 185);">
+        <a class="navbar-brand mr-5" href="#" style="color: orangered;"><img src="img/WhatsApp_Image_2025-01-06_at_06.22.03-removebg-preview.png" alt="" style="width: 200px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"  id="home">
+            <li class="nav-item active mr-5" style="font-size: 20px;">
+              <a class="nav-link" href="index.html" style="color: white;">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-5" style="font-size: 20px;">
+              <a class="nav-link" href="#produk" style="color: white;">PRODUCT</a>
+            </li>
+            <li class="nav-item dropdown mr-5" style="font-size: 20px;">
+              <a class="nav-link" href="#tentang" style="color: white;">ABOUT</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Find Your Product Here ..." aria-label="Search" style="width: 400px;">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+            <div class="nav-item dropdown mr-5 ml-3">
+                <a class="nav-link " href="#" id="navbarDropdown" role="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class='bx bxs-user-circle' style="color: white; font-size: 40px;" ></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="loginnn.html">Login</a>
+                  <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+      </nav>
+
+      <h2 class="text-center mt-3">FORMAT PEMBAYARAN</h2>
+      <div class="container mt-5 d-flex">
+        <figure class="figure ml-5">
+            <img src="img/pr3.jpg" class="figure-img img-fluid rounded border border-primary" style="width: 450px; height: 350px; border-radius: 10px;" alt="A generic square placeholder image with rounded corners in a figure.">
+            <h5 class="text-center">Oli Federal Ultratec</h5>
+            <p class="text-center" style="font-style: italic;">Rp30.000</p>
+          </figure>
+          
+          <div class="pembayaran" style="width: 600px;">
+            <form class="ml-5">
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-4 col-form-label">Jumlah</label>
+                <div class="col-sm-2">
+                  <input type="number" class="form-control" id="inputPassword" placeholder="">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="text" class="col-sm-4 col-form-label">Metode Pembayaran</label>
+                <div class="col-sm-4">
+                  <select class="form-control">
+                    <option>BRI</option>
+                    <option>BCA</option>
+                    <option>DANA</option>
+                    <option>GOPAY</option>
+                    <option>OVO</option>
+                    <option>SHOPEE PAY</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-4 col-form-label">No Telepon</label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" id="inputPassword" placeholder="">
+                </div>
+              </div>
+              <div class="form-group row pb-2">
+                <label for="inputPassword" class="col-sm-4 col-form-label">Alamat</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="inputPassword" placeholder="" style="height: 100px;">
+                </div>
+              </div>
+              <div class="form group text-center" style="margin-left: -95px;">
+              <button type="button" class="btn btn-success">Bayar</button>
+              </div>
+              </form>
+          </div>
+      </div>
+  
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
+</html>
